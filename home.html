@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Infinite Mail
+    </title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <div id="main_flexbox">
+        <div id="sidebar">
+            <div id="profile_pic">
+                <img src="https://avatars1.githubusercontent.com/u/31545426?s=400&v=4" class="propic" />
+            </div>
+            <div id="compose_button">
+                <button id="button" class="compose_button">Compose Mail</button>
+                <button id="button">Logout</button>
+            </div>
+            <div id="more_option">
+                <div id="option_row">
+                    Inbox
+                </div>
+                <div id="option_row">
+                    Sent Mail
+                </div>
+                <div id="option_row">
+                    Spam
+                </div>
+            </div>
+        </div>
+
+        <div id="mainbody_bg">
+            <div id="mainbody">
+                <div id="mailrow" class="rounded_top_corners row1">
+                    <div class="sender">Google</div> Congratulations on getting selected for internship!
+                </div>
+                <div id="mailbody" class="mail1">
+                    <div id="mailheader">
+                        <span class="sender">jobs@google.com</span>
+                        <span class="time">Oct 13th someday</span>
+                    </div>
+                    <div id="mailcontent">
+                        Congratulations on getting this intership
+                    </div>
+                    <div id="mailfooter">
+                        <button id="button">Reply</button>
+                    </div>
+                </div>
+                <div id="mailrow" class="row2">
+                    <div class="sender">Aswin</div> Sending the seminar abstract
+                </div>
+                <div id="mailbody" class="mail2">
+                    <div id="mailheader">
+                        <span class="sender">jobs@google.com</span>
+                        <span class="time">Oct 13th someday</span>
+                    </div>
+                    <div id="mailcontent">
+                        Congratulations on getting this intership
+                    </div>
+                    <div id="mailfooter">
+                        <button id="button">Reply</button>
+                    </div>
+                </div>
+                <div id="mailrow" class="row3">
+                    <div class="sender">Flipkart</div> Lowest prices for gaming laptop!
+                </div>
+                <div id="mailbody" class="mail3">
+                    <div id="mailheader">
+                        <span class="sender">jobs@google.com</span>
+                        <span class="time">Oct 13th someday</span>
+                    </div>
+                    <div id="mailcontent">
+                        Congratulations on getting this intership
+                    </div>
+                    <div id="mailfooter">
+                        <button id="button">Reply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal">
+        <div id="modalbody">
+            <input placeholder="   To" class="input" />
+            <input placeholder="   Subject" class="input" />
+            <textarea class="maininput"></textarea>
+            <div id="modalfooter">
+                <button id="button" class="sendmail">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="js.js"></script>
+</body>
+
+</html>
