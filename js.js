@@ -1,4 +1,15 @@
 $(document).ready(function() {
+  $(".Login").click(function() {
+    console.log("work");
+    $(".Form").fadeOut();
+    $("#wrapall").fadeIn();
+  });
+
+  $(".logout_button").click(function() {
+    $("#wrapall").fadeOut();
+    $(".Form").fadeIn();
+  });
+
   $(".row1").click(function() {
     $(".mail2").slideUp();
     $(".mail3").slideUp();
