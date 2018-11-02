@@ -81,6 +81,19 @@ body{
     font-size: 15px;
 }
 
+.username{
+    margin: 0.7em;
+    padding: 8px;
+    border-radius: 2em;
+    outline: none;
+    text-indent: 10px;
+
+    width: 70%;
+    font-family: "BrandonGrotesque-Med";
+    font-size: 15px;
+    height: auto;
+}
+
 .Form > div > button{
 
     margin-top: 12px;
