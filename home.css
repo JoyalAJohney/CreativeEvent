@@ -1,6 +1,8 @@
 body {
   margin: 0px;
   padding: 0px;
+  background: url('./images/bg.jpg');
+  background-size: cover;
 }
 
 #wrapall {
@@ -11,11 +13,26 @@ body {
   height: 100vh;
   width: 100vw;
 }
+@font-face {
+  font-family: "BrandonGrotesque-Bold";
+  src: url("./font/BrandonGrotesque/Brandon_bld.otf");
+}
+@font-face {
+  font-family: "BrandonGrotesque-Med";
+  src: url("./font/BrandonGrotesque/Brandon_med.otf");
+}
+@font-face {
+  font-family: "BrandonGrotesque-Lit";
+  src: url("./font/BrandonGrotesque/Brandon_reg.otf");
+}
+
+
+
 
 #sidebar {
   width: 18vw;
   height: 100vh;
-  background-color: #494747;
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,14 +42,25 @@ body {
 #mainbody_bg {
   width: 82vw;
   height: 100vh;
-  background-color: white;
+  /* background-color: white; */
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 5px;
+  overflow: hidden;
 }
 
+/* .extraWhiteDiv{
+  width: 90%;
+  height: 20%;
+  margin: 10px 0;
+  margin-top: 0;
+  background-color: white;
+} */
+
 #mainbody {
-  height: 90%;
+  height: 80%;
   width: 90%;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 10px;
@@ -107,6 +135,7 @@ body {
   color: blanchedalmond;
   font-size: 1.5em;
   border-bottom: 1px solid white;
+  font-family: "BrandonGrotesque-Med";
 }
 
 .sender {
