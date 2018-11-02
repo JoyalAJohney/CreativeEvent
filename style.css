@@ -104,3 +104,25 @@ body{
 
 
 
+@keyframes tagReveal {
+    0% {
+      transform: rotate(0) translateX(0);
+      opacity: 0;
+    }
+    100% {
+      transform: rotate(0) translateX(0);
+      opacity: 1.5;
+    }
+  }
+
+  .Form {
+    animation: tagReveal 1s forwards 0s ease-in;
+  }
+
+
+ 
+  @media only screen and (max-width: 768px){
+    .Form{
+        width: 90%;
+    }
+  }
