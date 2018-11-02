@@ -37,8 +37,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url('./images/1.jpg');
-  background-size: cover;
+  /* background: url('./images/1.jpg'); */
+  /* background-size: cover; */
+  background-color: #474949;
 }
 
 #mainbody_bg {
